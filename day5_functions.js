@@ -45,4 +45,51 @@ function concat(str , str1) {
 // activity 3 
 // task 5
 
+ const addtwo = (num1 , num2) => num1 + num2
 
+//  console.log(addtwo(2 ,4));
+
+ const adtwo = (numb1  , numb2) => {
+    return numb1 + numb2
+ }
+//  console.log(adtwo(4 , 6));
+
+
+// task  6
+   
+let stringcontains = (str) =>  str.includes('v')
+// console.log(stringcontains("rahul"));
+
+let stringgg = (str) => {if(str.includes('a')) 
+    {
+        return `contains`;
+    
+}else{
+         return `does not `
+} }
+
+
+// console.log(stringgg("roror"));
+
+//  activity 4 
+// task 7
+
+ 
+let product  = (number1  , number2) => number1 * number2
+  console.log(product(2 , 4));
+
+  function product_of_two(num1 , num2){
+    return num1 * 4;
+  }
+
+  console.log(product_of_two(3,));
+
+// task 8
+
+function greeting(name, age){
+      return `good morning ${name} sir aapki age  hai ${21}`
+}
+console.log(greeting("puneet",));
+
+//  activity 5 
+task  9 
