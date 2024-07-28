@@ -92,4 +92,4 @@ function greeting(name, age){
 console.log(greeting("puneet",));
 
 //  activity 5 
-task  9 
+// task  9 
