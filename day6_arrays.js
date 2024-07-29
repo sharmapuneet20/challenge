@@ -36,3 +36,38 @@ arr.forEach(element => {
     console.log(element);
     
 });
+
+// activity 3 
+// task 7 ,8 ,9
+
+const ar  = [1, 2, 3, 4, 5]
+const nearrr = ar.map((num)=> num * 2)
+console.log(nearrr);
+
+
+const evenarr = ar.filter((num)=> {
+       return (num % 2) == 0
+})
+
+console.log(evenarr);
+
+const sumofarr = ar.reduce((acc, currval)=> (acc + currval),0 )
+ console.log(sumofarr);
+
+//   task 11
+
+const val = ar.forEach((num)=> {
+     return num;
+})
+console.log(val);
+
+
+// task 12\
+
+const arr2s = [1,2,4,5][2,4,5];
+
+ const valll  = arr2s.forEach((num)=>{
+        return num;
+ })
+ console.log(valll);
+  

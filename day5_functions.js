@@ -91,5 +91,21 @@ function greeting(name, age){
 }
 console.log(greeting("puneet",));
 
-//  activity 5 
-// task  9 
+//  activity 9
+
+// task 6
+ 
+function repeatfunc(func , n)
+{
+  return function(...args){
+    for (let index = 0; index < n; index++) {
+            func(...args);
+      
+    }
+  }
+}
+function sayhello(){
+  console.log("hello");
+}
+
+const repeath  = repeatfunc(sayhello , 3);
